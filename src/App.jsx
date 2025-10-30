@@ -25,7 +25,10 @@
 
 // export default App
 import React, { Component } from 'react'
-import Counter2 from './Class-components/Counter2'
+import UnMounting from './Class-components/Life-cyclemethods/UnMountain'
+// import Counter2 from './Class-components/Counter2'
+// import Mounting from './Class-components/Life-cyclemethods/Mounting'
+// import Updating from './Class-components/Life-cyclemethods/updating'
 // import Counter from './Class-components/Counter'
 // import Basic from './Class-components/Basic'
 // import UsingProps from './Class-components/UsingProps'
@@ -39,7 +42,10 @@ export default class App extends Component {
       {/* <Basic/> */}
       {/* <UsingProps name="vyshna"/> */}
       {/* <Counter/> */}
-      <Counter2/>
+      {/* <Counter2/> */}
+      {/* <Mounting/> */}
+      {/* <Updating/> */}
+      <UnMounting/>
 
   
 
