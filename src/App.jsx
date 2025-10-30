@@ -25,7 +25,8 @@
 
 // export default App
 import React, { Component } from 'react'
-import Counter from './Class-components/Counter'
+import Counter2 from './Class-components/Counter2'
+// import Counter from './Class-components/Counter'
 // import Basic from './Class-components/Basic'
 // import UsingProps from './Class-components/UsingProps'
 
@@ -37,7 +38,11 @@ export default class App extends Component {
               {/* -------------------class-components--------------------- */}
       {/* <Basic/> */}
       {/* <UsingProps name="vyshna"/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <Counter2/>
+
+  
+
 
         
       </div>
