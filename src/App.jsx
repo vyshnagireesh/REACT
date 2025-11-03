@@ -5,7 +5,10 @@
 // // import Calling_function from './embedding-expression/calling_function'
 // // import Welcome from './embedding-expression/Welcome'
 
-import Props from "./functional-components/Props"
+// import Timer from "./functional-components/Hooks/UseEffect-Hook/Timer"
+import UserList from "./functional-components/Hooks/UseEffect-Hook/UserList"
+// import Usestate from "./functional-components/Hooks/Usestate"
+// import Props from "./functional-components/Props"
 // import State from "./functional-components/state"
 
 // import Basic from "./functional-components/basic"
@@ -23,7 +26,12 @@ function App() {
   {/*-------------------- functional components------------------- */}
     {/* <Basic/> */}
     {/* <State/> */}
-    <Props/>
+    {/* <Props/> */}
+
+    {/* -------------hooks & life cycle methods--------*/}
+
+    {/* <Timer/> */}
+    <UserList/>
 
  </>
 
