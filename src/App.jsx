@@ -1,12 +1,39 @@
-// import './App.css'
+import './App.css'
 // import Basic from './Class-components/Basic'
 // // import Rendaringlist from './embedding-expression/rendaringlist'
 // // import Condition from './embedding-expression/condition'
 // // import Calling_function from './embedding-expression/calling_function'
 // // import Welcome from './embedding-expression/Welcome'
 
+import { Link, Route, Routes } from "react-router-dom"
+import ProductDetailPage from "./dynamic.routing/ProductDetailPage"
+import Products from "./dynamic.routing/Products"
+import Navbar from "./nested-routing/Navbar"
+import Home from"./nested-routing/pages/Home"
+import About from"./nested-routing/pages/About"
+import Service from './nested-routing/pages/Service'
+import Item from './react-keys/Item'
+import ReakWorld from './react-keys/ReakWorld'
+import SimpleForm from './Form/SimpleForm'
+import Form from './Form/Form'
+
+// import Home from "./react-router-dom/Home"
+// import About from "./react-router-dom/About"
+
+// import { Route } from "react-router-dom"
+
+// import Home from "./functional-components/Hooks/dark&Lightmood/Home"
 // import Timer from "./functional-components/Hooks/UseEffect-Hook/Timer"
-import UserList from "./functional-components/Hooks/UseEffect-Hook/UserList"
+// import RunEffectChange from "./functional-components/Hooks/UseEffect-Hook/useContent-hook/RunEffectChange"
+// import RunEffectOnlyOnce from "./functional-components/Hooks/UseEffect-Hook/useContent-hook/RunEffectOnly"
+// import Textinput from "./functional-components/Hooks/userstate-hooks/Textinput"
+// import ToggleButton from "./functional-components/Hooks/userstate-hooks/Togglebutton"
+
+// import Counter from "./functional-components/Hooks/userstate-hooks/counter"
+
+
+// import Timer from "./functional-components/Hooks/UseEffect-Hook/Timer"
+// import UserList from "./functional-components/Hooks/UseEffect-Hook/UserList"
 // import Usestate from "./functional-components/Hooks/Usestate"
 // import Props from "./functional-components/Props"
 // import State from "./functional-components/state"
@@ -17,28 +44,91 @@ function App() {
 
   return (
     <>
-       {/*----------------- embedding-expreesion--------------- */}
-       {/* <Welcome/> */}
-       {/* <Calling_function/> */}
+      {/*----------------- embedding-expreesion--------------- */}
+      {/* <Welcome/> */}
+      {/* <Calling_function/> */}
       {/* <Condition/> */}
       {/* <Rendaringlist /> */}
 
-  {/*-------------------- functional components------------------- */}
-    {/* <Basic/> */}
-    {/* <State/> */}
-    {/* <Props/> */}
+      {/*-------------------- functional components------------------- */}
+      {/* <Basic/> */}
+      {/* <State/> */}
+      {/* <Props/> */}
 
-    {/* -------------hooks & life cycle methods--------*/}
+      {/* -------------hooks & life cycle methods--------*/}
 
-    {/* <Timer/> */}
-    <UserList/>
+      {/* <Timer/> */}
+      {/* <UserList/> */}
+      {/* <Counter/> */}
+      {/* <Textinput/> */}
+      {/* <ToggleButton/> */}
+      {/* <RunEffectOnlyOnce/> */}
+      {/* <RunEffectChange/> */}
 
- </>
+
+      {/* -------------react-router-dom  ------------- */}
+      {/* 1.------basic routting ----------------*/}
+      {/* <div>
+        <nav>
+          <Link to='/'>Home</Link> <br />
+          <Link to='/about'>About</Link>
+        </nav>
+      </div>
+
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+      </Routes>
+
+ */}
+
+      {/* -------------2.dynamic routing------------- */}
+
+      {/* <Routes>
+        <Route path='/' element={<Products />} />
+        <Route path='/products/:id' element={<ProductDetailPage />} />
+      </Routes> */}
+
+      {/* 3.---------nested routing---------- */}
+
+      {/* <Navbar/>
+      <div className="container-app">
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/about' element={<About/>}/> */}
+
+
+          
+        {/* nested routing starts here */}
+        {/* <Route path='/service' element={<Service/>}>
+        </Route>
+
+        </Routes>
+
+
+      </div> */}
+
+
+
+      {/* ------------------------react keys-------------------- */}
+
+      {/* <Item/> */}
+      {/* <ReakWorld/> */}
+
+
+    {/* -----------form------------ */}
+
+    {/* <SimpleForm/> */}
+    <Form/>
+
+      
+
+    </>
 
   )
 }
 
-    
+
 export default App
 // import React, { Component } from 'react'
 // import ButtonUnMount from './Class-components/Life-cyclemethods/ButtonUnMount'
@@ -55,15 +145,15 @@ export default App
 //   render() {
 //     return (
 //       <div>
-              {/* -------------------class-components--------------------- */}
-      {/* <Basic/> */}
-      {/* <UsingProps name="vyshna"/> */}
-      {/* <Counter/> */}
-      {/* <Counter2/> */}
-      {/* <Mounting/> */}
-      {/* <Updating/> */}
-      {/* <UnMounting/> */}
-      {/* <ButtonUnMount/>
+{/* -------------------class-components--------------------- */ }
+{/* <Basic/> */ }
+{/* <UsingProps name="vyshna"/> */ }
+{/* <Counter/> */ }
+{/* <Counter2/> */ }
+{/* <Mounting/> */ }
+{/* <Updating/> */ }
+{/* <UnMounting/> */ }
+{/* <ButtonUnMount/>
 
   
 
