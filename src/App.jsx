@@ -1,21 +1,23 @@
 import './App.css'
+import Crud from './local-storage/Crud'
 // import Basic from './Class-components/Basic'
 // // import Rendaringlist from './embedding-expression/rendaringlist'
 // // import Condition from './embedding-expression/condition'
 // // import Calling_function from './embedding-expression/calling_function'
 // // import Welcome from './embedding-expression/Welcome'
 
-import { Link, Route, Routes } from "react-router-dom"
-import ProductDetailPage from "./dynamic.routing/ProductDetailPage"
-import Products from "./dynamic.routing/Products"
-import Navbar from "./nested-routing/Navbar"
-import Home from"./nested-routing/pages/Home"
-import About from"./nested-routing/pages/About"
-import Service from './nested-routing/pages/Service'
-import Item from './react-keys/Item'
-import ReakWorld from './react-keys/ReakWorld'
-import SimpleForm from './Form/SimpleForm'
-import Form from './Form/Form'
+// import { Link, Route, Routes } from "react-router-dom"
+// import ProductDetailPage from "./dynamic.routing/ProductDetailPage"
+// import Products from "./dynamic.routing/Products"
+// import Navbar from "./nested-routing/Navbar"
+// import Home from"./nested-routing/pages/Home"
+// import About from"./nested-routing/pages/About"
+// import Service from './nested-routing/pages/Service'
+// import Item from './react-keys/Item'
+// import ReakWorld from './react-keys/ReakWorld'
+// import SimpleForm from './Form/SimpleForm'
+// import Form from './Form/Form'
+
 
 // import Home from "./react-router-dom/Home"
 // import About from "./react-router-dom/About"
@@ -119,9 +121,12 @@ function App() {
     {/* -----------form------------ */}
 
     {/* <SimpleForm/> */}
-    <Form/>
+    {/* <Form/> */}
 
-      
+ {/* local storage      */}
+ <Crud/>
+
+ 
 
     </>
 
