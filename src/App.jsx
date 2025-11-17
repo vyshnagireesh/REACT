@@ -1,5 +1,10 @@
 import './App.css'
-import Crud from './local-storage/Crud'
+import Banner from './components/Banner'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+import PopularProducts from './components/PopularProducts'
+import Todo from './WORK/Todp'
+// import Crud from './local-storage/Crud'
 // import Basic from './Class-components/Basic'
 // // import Rendaringlist from './embedding-expression/rendaringlist'
 // // import Condition from './embedding-expression/condition'
@@ -124,9 +129,19 @@ function App() {
     {/* <Form/> */}
 
  {/* local storage      */}
- <Crud/>
+ {/* <Crud/> */}
 
- 
+     {/*------------ products website------------ */}
+
+
+     {/* <Navbar/> */}
+     {/* <Banner/> */}
+     {/* <PopularProducts/> */}
+     {/* <Footer/> */}
+
+     {/* -----------------work------------ */}
+
+     <Todo/>
 
     </>
 
