@@ -1,9 +1,12 @@
 import './App.css'
-import Banner from './components/Banner'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
-import PopularProducts from './components/PopularProducts'
-import Todo from './WORK/Todp'
+import UseRef from './functional-components/Hooks/UseRef'
+// import AxiosGet from './axios/AxiosGet'
+// import AxiosPost from './axios/AxiosPost'
+// import Banner from './components/Banner'
+// import Footer from './components/Footer'
+// import Navbar from './components/Navbar'
+// import PopularProducts from './components/PopularProducts'
+// import Todo from './WORK/Todp'
 // import Crud from './local-storage/Crud'
 // import Basic from './Class-components/Basic'
 // // import Rendaringlist from './embedding-expression/rendaringlist'
@@ -61,6 +64,7 @@ function App() {
       {/* <Basic/> */}
       {/* <State/> */}
       {/* <Props/> */}
+      <UseRef/>
 
       {/* -------------hooks & life cycle methods--------*/}
 
@@ -141,7 +145,12 @@ function App() {
 
      {/* -----------------work------------ */}
 
-     <Todo/>
+     {/* <Todo/> */}
+
+     {/*------------------------ AXIOS------------------------ */}
+
+     {/* <AxiosGet/> */}
+     {/* <AxiosPost/> */}
 
     </>
 
