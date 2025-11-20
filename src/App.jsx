@@ -1,5 +1,8 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import ProductPage from './desings/dynamic-routing-rw-example/ProductPage'
 import UseRef from './functional-components/Hooks/UseRef'
+import ProductDetails from './desings/dynamic-routing-rw-example/ProductDetails'
 // import AxiosGet from './axios/AxiosGet'
 // import AxiosPost from './axios/AxiosPost'
 // import Banner from './components/Banner'
@@ -64,7 +67,7 @@ function App() {
       {/* <Basic/> */}
       {/* <State/> */}
       {/* <Props/> */}
-      <UseRef/>
+      {/* <UseRef/> */}
 
       {/* -------------hooks & life cycle methods--------*/}
 
@@ -151,6 +154,13 @@ function App() {
 
      {/* <AxiosGet/> */}
      {/* <AxiosPost/> */}
+
+     {/*-------- dynamic-routing---------- */}
+     {/* <ProductPage/> */}
+     <Routes>
+      <Route path='/' element={<ProductPage/>}/>
+      <Route path='/products/:id' element={<ProductDetails/>}/>
+     </Routes>
 
     </>
 
