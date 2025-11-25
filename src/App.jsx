@@ -3,6 +3,11 @@ import './App.css'
 import ProductPage from './desings/dynamic-routing-rw-example/ProductPage'
 import UseRef from './functional-components/Hooks/UseRef'
 import ProductDetails from './desings/dynamic-routing-rw-example/ProductDetails'
+import UseLayoutEffect from './functional-components/Hooks/UseLayoutEffect'
+import UseMemo from './functional-components/Hooks/UseMemo'
+import Counter from './functional-components/Hooks/Usereduce/Counter'
+import Parent from './functional-components/Hooks/usecallback/Parent'
+// import Navbar from './WORK/Navbar'
 // import AxiosGet from './axios/AxiosGet'
 // import AxiosPost from './axios/AxiosPost'
 // import Banner from './components/Banner'
@@ -68,6 +73,7 @@ function App() {
       {/* <State/> */}
       {/* <Props/> */}
       {/* <UseRef/> */}
+      {/* <Counter/> */}
 
       {/* -------------hooks & life cycle methods--------*/}
 
@@ -78,6 +84,9 @@ function App() {
       {/* <ToggleButton/> */}
       {/* <RunEffectOnlyOnce/> */}
       {/* <RunEffectChange/> */}
+      {/* <UseLayoutEffect/> */}
+      {/* <UseMemo/> */}
+      {/* <Parent/> */}
 
 
       {/* -------------react-router-dom  ------------- */}
@@ -156,11 +165,18 @@ function App() {
      {/* <AxiosPost/> */}
 
      {/*-------- dynamic-routing---------- */}
-     {/* <ProductPage/> */}
      <Routes>
-      <Route path='/' element={<ProductPage/>}/>
+       <Route path='/' element={<ProductPage/>}/>
       <Route path='/products/:id' element={<ProductDetails/>}/>
      </Routes>
+
+
+
+     
+
+
+
+
 
     </>
 
