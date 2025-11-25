@@ -7,6 +7,7 @@ import UseLayoutEffect from './functional-components/Hooks/UseLayoutEffect'
 import UseMemo from './functional-components/Hooks/UseMemo'
 import Counter from './functional-components/Hooks/Usereduce/Counter'
 import Parent from './functional-components/Hooks/usecallback/Parent'
+import BasicHookForm from './react-hook-form/BasicHookForm'
 // import Navbar from './WORK/Navbar'
 // import AxiosGet from './axios/AxiosGet'
 // import AxiosPost from './axios/AxiosPost'
@@ -165,10 +166,13 @@ function App() {
      {/* <AxiosPost/> */}
 
      {/*-------- dynamic-routing---------- */}
-     <Routes>
+     {/* <Routes>
        <Route path='/' element={<ProductPage/>}/>
       <Route path='/products/:id' element={<ProductDetails/>}/>
-     </Routes>
+     </Routes> */}
+
+     {/* react-hook-form */}
+     <BasicHookForm/>
 
 
 
