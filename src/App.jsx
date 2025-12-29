@@ -1,13 +1,16 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import ProductPage from './desings/dynamic-routing-rw-example/ProductPage'
-import UseRef from './functional-components/Hooks/UseRef'
-import ProductDetails from './desings/dynamic-routing-rw-example/ProductDetails'
-import UseLayoutEffect from './functional-components/Hooks/UseLayoutEffect'
-import UseMemo from './functional-components/Hooks/UseMemo'
-import Counter from './functional-components/Hooks/Usereduce/Counter'
-import Parent from './functional-components/Hooks/usecallback/Parent'
-import BasicHookForm from './react-hook-form/BasicHookForm'
+// import ProductList from './ShoopingCart/Components1/ProductList'
+// import ProductPage from './desings/dynamic-routing-rw-example/ProductPage'
+// import UseRef from './functional-components/Hooks/UseRef'
+// import ProductDetails from './desings/dynamic-routing-rw-example/ProductDetails'
+// import UseLayoutEffect from './functional-components/Hooks/UseLayoutEffect'
+// import UseMemo from './functional-components/Hooks/UseMemo'
+// import Counter from './functional-components/Hooks/Usereduce/Counter'
+// import Parent from './functional-components/Hooks/usecallback/Parent'
+// import BasicHookForm from './react-hook-form/BasicHookForm'
+// import ShoppingCart from './components/ShoppingCart'
+// import CartApp from './Context/Cart components/CartApp'
 // import Navbar from './WORK/Navbar'
 // import AxiosGet from './axios/AxiosGet'
 // import AxiosPost from './axios/AxiosPost'
@@ -45,7 +48,7 @@ import BasicHookForm from './react-hook-form/BasicHookForm'
 // import Timer from "./functional-components/Hooks/UseEffect-Hook/Timer"
 // import RunEffectChange from "./functional-components/Hooks/UseEffect-Hook/useContent-hook/RunEffectChange"
 // import RunEffectOnlyOnce from "./functional-components/Hooks/UseEffect-Hook/useContent-hook/RunEffectOnly"
-// import Textinput from "./functional-components/Hooks/userstate-hooks/Textinput"
+import Textinput from "./functional-components/Hooks/userstate-hooks/Textinput"
 // import ToggleButton from "./functional-components/Hooks/userstate-hooks/Togglebutton"
 
 // import Counter from "./functional-components/Hooks/userstate-hooks/counter"
@@ -81,7 +84,7 @@ function App() {
       {/* <Timer/> */}
       {/* <UserList/> */}
       {/* <Counter/> */}
-      {/* <Textinput/> */}
+      <Textinput/>
       {/* <ToggleButton/> */}
       {/* <RunEffectOnlyOnce/> */}
       {/* <RunEffectChange/> */}
@@ -172,7 +175,15 @@ function App() {
      </Routes> */}
 
      {/* react-hook-form */}
-     <BasicHookForm/>
+     {/* <BasicHookForm/> */}
+
+
+     {/*----------- COUNTER REDUCE -------------*/}
+     {/* <Counter/> */}
+     {/* <ShoppingCart/> */}
+     {/* <CartApp/> */}
+
+     {/* <ProductList/> */}
 
 
 
